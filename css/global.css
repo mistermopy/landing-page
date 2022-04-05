@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.header-panel {
+    display: flex;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+}
+
+.img-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.extra-space {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-panel {
+    display: flex;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    
+}
