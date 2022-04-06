@@ -3,7 +3,6 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     margin: 0;
     font-family: Roboto;
 }
@@ -74,7 +73,7 @@ button {
     font-size: 18px;
     color: #E5E7EB;
     background-color:gray;
-    height:90%;
+    height: 200px;
     padding: 0% 15%;
 }
 
