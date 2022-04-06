@@ -14,14 +14,19 @@ body {
     align-items: center;
     flex: 0 0 auto;
     background-color: #1F2937;
-    color: white;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 1% 10% 0% 10%;
+}
+
+.hlogo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .hlink {
     display: flex;
     gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header-panel {
@@ -31,26 +36,45 @@ body {
     flex: 1 0 auto;
     background-color: #1F2937;
     color: white;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 10% 10%;
+    column-gap: 10%;
 }
 
 .greeting {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 1 auto;
+    gap: 16px;
+}
+
+.greeting-header {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.greeting-info {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 button {
     width: fit-content;
     padding: 5px 20px;
     background-color: #3882F6;
-    color: white;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
-img {
-    flex: 1;
-    text-align: center;
+.placeholder {
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color:gray;
+    height:90%;
+    padding: 0% 15%;
 }
 
 .content {
@@ -74,7 +98,7 @@ img {
     text-align: center;
 }
 
-.img-group {
+.info-group {
     display: flex;
     flex-direction: column;
 }
